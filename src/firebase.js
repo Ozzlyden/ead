@@ -1,3 +1,4 @@
+/*
 // FORMA PADRAO DO FIREBASE SDK
 
 // Import the functions you need from the SDKs you need
@@ -21,8 +22,9 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+*/
 
-/*
+
 // FORMA DO PROFESSOR
 
 import firebase from "firebase";
@@ -45,4 +47,3 @@ const auth = firebase.auth();
 const provider = new firebase.auth.GoogleAuthProvider();
 
 export { auth, provider, db, storage };
-*/

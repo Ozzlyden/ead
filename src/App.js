@@ -7,6 +7,7 @@ import {
   useParams,
 } from "react-router-dom";
 import "./App.css";
+import Cursos from "./Cursos"
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <div className="modulos">Listar Módulos</div>
           </Route>
           <Route path="/">
-            <div className="cursos">Listar Cursos</div>
+            <Cursos/>
           </Route>
         </Switch>
       </div>
