@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import Cursos from "./Cursos"
+import Modulos from "./Modulos";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <div className="aulas">Listar Aulas</div>
           </Route>
           <Route path="/:nomeCurso">
-            <div className="modulos">Listar Módulos</div>
+            <Modulos/>
           </Route>
           <Route path="/">
             <Cursos/>
